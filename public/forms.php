@@ -9,7 +9,7 @@
 </head>
 <body>
     <article class="article">
-        <h1 class="newsletter">API</h1>
+        <h1 class="newsletter">Nieuwsbrief</h1>
         <form class="form" method="POST" action="save_data.php" onsubmit="return validateForm()">
 
             <select name="nieuwsbrief" id="nieuwsbrief">
@@ -17,7 +17,7 @@
                 <option value="reviewmail">Reviewmail</option>
             </select>
             <input class="input" type="text" name="fname" placeholder="*First name">
-            <input class="input" type="text" name="lname" placeholder="*Last name">
+            <input class="input" type="text" name="lastname" placeholder="*Last name">
             <input class="input" type="email" name="email" placeholder="*Email">
             <input class="submit" type="submit">
         </form>
